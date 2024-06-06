@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(135deg, #ffccff 0%, #ff99cc 100%);
+            font-family: 'Arial', sans-serif;
+            overflow: hidden;
+        }
+        .container {
+            text-align: center;
+            color: #fff;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0.5em 0;
+            color: #ff4081;
+        }
+        .strawberry {
+            font-size: 5em;
+            animation: float 5s ease-in-out infinite;
+        }
+        @keyframes float {
+            0% { transform: translateY(0); }
+            50% { transform: translateY(-20px); }
+            100% { transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Happy Birthday Ngolovu!</h1>
+        <div class="strawberry">🍓</div>
+    </div>
+</body>
+</html>
